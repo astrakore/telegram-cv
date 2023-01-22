@@ -1,0 +1,69 @@
+{
+    "name": "Spanish Corpus",
+    "locale": "es-ES",
+    "data": [
+        {
+            "intent": "saludos",
+            "utterances": [
+                "hola",
+                "buenos días",
+                "buenas tardes",
+                "bienvenido",
+                "bienvenida"
+            ],
+            "answers": [
+                "¡Hola! Bienvenido a mi bot CV. Hablando conmigo podrás descubrir todos los detalles de mi vida profesional."
+            ]
+        },
+        {
+            "intent": "despedidas",
+            "utterances": [
+                "adiós",
+                "nos vemos",
+                "hasta luego",
+                "muchas gracias"
+            ],
+            "answers": [
+                "¡Adiós! Espero que te haya aclarado tus dudas. ¡Nos vemos!"
+            ]
+        },
+        {
+            "intent": "estudios",
+            "utterances": [
+                "qué has estudiado",
+                "cuál es tu formación",
+                "dónde te has formado",
+                "qué estudios tienes",
+                "cuáles son tus estudios"
+            ],
+            "answers": [
+                "Estudié el bootcamp de Full Stack Developer de Geekshubs Academy aquí en Valencia, donde me especialicé en tecnologías como React y Node, además de, por supuesto, HTML, CSS y JavaScript Vanilla. Actualmente tengo interés en formarme en el desarrollo mobile (iOS y Kotlin, pero no le diría que no a Flutter) y en otros frameworks web como Vue o Svelte."
+            ]
+        },
+        {
+            "intent": "experiencia",
+            "utterances": [
+                "cuál es tu experiencia",
+                "dónde has trabajado",
+                "dime tus últimos trabajos",
+                "en qué empresas has trabajado"
+            ],
+            "answers": [
+                "En mayo de 2022 conseguí mi primer trabajo en el mundo de la programación en Caira Education, aquí en Valencia. Trabajé con ellos durante un mes como desarrolladora frontend, utilizando HTML, CSS y React."
+            ]
+        },
+        {
+            "intent": "habilidades",
+            "utterances": [
+                "qué lenguajes de programación conoces",
+                "qué tecnologías manejas",
+                "con qué frameworks has trabajado",
+                "qué herramientas son las que más controlas",
+                "cuáles son tus habilidades como programador"
+            ],
+            "answers": [
+                "Además de dominar con soltura HTML y CSS, me manejo con soltura con JavaScript y su framework React. En el backend, utilizo Node y Express."
+            ]
+        }
+    ]
+}
